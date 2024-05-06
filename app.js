@@ -1,5 +1,5 @@
 import { loadDataArr } from './loadDataArr.js'
-import { createFilmCards } from './createList/createFilmCards.js'
+import { createCards } from './createList/createCards.js'
 import { setList } from './setList.js'
 let loadFilms = null;
 async function getFilms(){
@@ -13,6 +13,6 @@ async function getFilms(){
 }
 
 await getFilms()
-setList(createFilmCards(loadFilms), 'Films')
+setList(createCards(loadFilms,'films'), 'Films')
 
-console.log(loadFilms)
+
