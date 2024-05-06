@@ -1,3 +1,3 @@
 # promisesSWAPI
 
-index.html open live server
+index.html open with live server
